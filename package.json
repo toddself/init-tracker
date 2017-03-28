@@ -1,0 +1,24 @@
+{
+  "name": "init-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bankai init-tracker.js"
+  },
+  "browserify": {
+    "transform": ["sheetify/transform"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^5.0.4",
+    "sheetify": "^6.0.1",
+    "tachyons": "^4.6.2"
+  },
+  "devDependencies": {
+    "bankai": "^6.0.0"
+  }
+}
