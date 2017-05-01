@@ -1,0 +1,19 @@
+.row {
+  background-color: lightgrey;
+}
+
+.row:nth-child(2n) {
+  background-color: white;
+}
+
+.row:hover {
+  background-color: cyan;
+}
+
+.active {
+  background-color: brightred;
+}
+
+.num {
+  width: 3rem;
+}
